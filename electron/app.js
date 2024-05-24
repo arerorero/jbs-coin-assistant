@@ -7,7 +7,7 @@ function createWindow() {
     icon: path.join(__dirname, "assets/667.jpg"),
     backgroundColor: "#000000", // preload color
     titleBarStyle: "hidden",
-    // frame: false,
+    frame: true,
     width: 900,
     height: 600,
     webPreferences: {
@@ -17,7 +17,8 @@ function createWindow() {
     },
   });
 
-  win.loadURL("http://localhost:1698");
+  console.log(`pass`);
+  win.loadURL("http://localhost:1999");
 }
 
 app.whenReady().then(() => {

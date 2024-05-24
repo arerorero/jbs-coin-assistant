@@ -6,8 +6,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "electron": "electron .",
-    "electron:serve": "npm-run-all -p serve electron"
+    "electron": "electron . --trace-warnings",
+    "electron:serve": "npm-run-all -p serve electron",
+    "test": "npm-run-all"
   },
   "dependencies": {
     "vue": "^3.2.13",

@@ -1,7 +1,7 @@
 module.exports = {
   lintOnSave: false,
   devServer: {
-    port: 1698,
+    port: 1999,
   },
   pluginOptions: {
     electronBuilder: {
